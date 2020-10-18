@@ -13,8 +13,8 @@ LIBS=
 CCFLAGS = -g -Wall -O0 -fPIC #for x86-64 libs compile
 
 # compile lib.so lib.a
-LIB-SHARE=libbtree.so
-LIB-STATIC=libbtree.a
+#LIB-SHARE=libbtree.so
+#LIB-STATIC=libbtree.a
 
 OUTPUT = main
 

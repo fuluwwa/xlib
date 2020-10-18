@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include "crc8.h"
+#include "list.h"
+#include "hashtab.h"
 
 int main()
 {

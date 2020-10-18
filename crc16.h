@@ -15,7 +15,9 @@
 #ifndef __CRC16_H
 #define __CRC16_H
 
-#include "types.h"
+typedef unsigned int size_t;
+typedef unsigned short u16;
+typedef unsigned char u8;
 
 extern u16 const crc16_table[256];
 

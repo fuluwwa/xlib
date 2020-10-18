@@ -16,7 +16,8 @@
 #ifndef __CRC8_H_
 #define __CRC8_H_
 
-#include "types.h"
+typedef unsigned char u8;
+typedef unsigned int size_t;
 
 /* see usage of this value in crc8() description */
 #define CRC8_INIT_VALUE		0xFF
